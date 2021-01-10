@@ -1,0 +1,152 @@
+*{
+  margin: 0px auto;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+.container p {
+  color: skyblue;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 2rem;
+  padding-bottom: 3.5rem;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 500px;
+  margin:auto;
+  border: 1px solid grey;
+  margin-bottom: none;
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+}
+
+.container img {
+  margin: 2rem 18rem;
+}
+
+.right {
+  float: left;
+  margin-top: -12rem;
+  margin-left: 30rem;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.right h3 {
+  letter-spacing: 1.5px;
+  padding-bottom: 3px;
+  color:  cyan;
+}
+
+.right h1 {
+  letter-spacing: 2.5px;
+  padding-bottom: 4px;
+  color: white;
+}
+
+main {
+  box-sizing: border-box;
+  width: 1000px;
+  margin:auto;
+}
+
+.container1 {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  height: 380px;
+  background-color: white;
+}
+
+.container1-heading {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  color: rgb(71, 36, 201);
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 1rem;
+}
+
+.container1-text {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 3rem;
+  letter-spacing: 1.2px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+.container2 h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 1.5rem 1rem;
+
+}
+
+.container2-text p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin: 1rem 3rem;
+  letter-spacing: 1.2px;
+  word-spacing: 8px;
+  line-height: 21px;
+  opacity: 0.8;
+}
+
+footer {
+  height: 120px;
+  width: 1000px;
+  background-color: rgb(222, 225, 228);
+
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  letter-spacing: 1.5px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.btn a {
+  padding: 10px 22px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin: 1rem;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.a:hover {
+  background-color: black;
+  transition: 1s;
+}
